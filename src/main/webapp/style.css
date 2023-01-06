@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	background-image:url("https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410_960_720.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom:30px;
+}
+
+nav{
+	background-color:orange;
+	font-size:35px;
+	color:white;
+	display:flex;
+	justify-content:right;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+nav a{
+	color:white;
+	padding-left:25px;
+	padding-right:25px;
+}
+nav a:hover{
+	color:black;
+}
+
+.form-container{
+	opacity:1;
+	background-color:#FEFCF3;
+	font-size:35px;
+	width:50%;
+	display:flex;
+	justify-content:center;
+	margin-left:47%;
+	margin-top:90px;
+	border-radius:20px;
+	padding-bottom:30px;
+}
+
+.form-container input{
+	height:40px;
+	margin-top:25px;
+	font-size:25px;
+	text-align:center;
+	background-color:#5F9DF7;
+	width:70%;
+	border-radius:40px;
+	display:flex;
+	justify-content:center;
+}
+
+.form-container select{
+	height:40px;
+	margin-top:25px;
+	font-size:25px;
+	text-align:center;
+	background-color:#5F9DF7;
+	width:70%;
+	border-radius:40px;
+	display:flex;
+	justify-content:center;
+}
+.form-container textarea{
+	height:40px;
+	margin-top:25px;
+	font-size:25px;
+	text-align:center;
+	background-color:#5F9DF7;
+	width:70%;
+	border-radius:30px;
+	display:flex;
+	justify-content:center;
+}
+.form-container button{
+	height:40px;
+	margin-top:25px;
+	font-size:25px;
+	text-align:center;
+	background-color:#5F9DF7;
+	width:70%;
+	cursor:pointer;
+	border-radius:30px;
+	display:flex;
+	justify-content:center;
+}
+
+.form-container a{
+	color:black;
+	margin-left:30%;
+}
+.form-container a:hover{
+	color:#0008C1;
+}
+
+.welcome-form{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.about{
+	font-family:Helvetica;
+	width:100vx;
+	height:80vh;
+	padding-left:20px;
+	opacity:0.8;
+	background-color:#FFF7E9;
+	font-size:35px;
+}
+.about p{
+	font-weight:bold;
+	padding-top:40px;
+}
+.check-Table{
+	background-color:#FFF7E9;
+	height:87vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:30px;
+}
+
+.check-Table img{
+	height:100px;
+	width:100px;
+}
+
+.check-Table td,th{
+	padding:10px 60px;
+}
